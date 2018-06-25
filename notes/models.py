@@ -10,3 +10,6 @@ class Note(models.Model):
     last_modified = models.DateTimeField(auto_now=True)
     #TODO Tagging system or categories
 
+class Bookmark(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid4, editable= False)
+    url= models    
