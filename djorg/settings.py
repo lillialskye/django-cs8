@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'notes',
     'rest_framework',
     'rest_framework.authtokens'
-    'bookmarks',
+   # 'bookmarks',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -142,4 +142,4 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
     ),
-
+}
