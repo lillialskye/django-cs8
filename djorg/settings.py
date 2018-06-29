@@ -35,8 +35,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'notes',
     'rest_framework',
-    'rest_framework.authtokens'
-   # 'bookmarks',
+    'rest_framework.authtoken',
+    'bookmarks',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
